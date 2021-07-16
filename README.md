@@ -1,73 +1,64 @@
-# netflix-clone
-This is a netflix-clone built using React.js
+<p align="center">
+<img src="https://github.com/CrypticMuze/netflix-clone/blob/master/netflix-clone/public/netflixlogo.png" alt="HealthHubLogo" height=200px width=400px/>
+</p>
 
-# Getting Started with Create React App
+# Netflix Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the Project
 
-## Available Scripts
+  This repo contains the output files for the Netflix Clone with respect to the [React JS Tutorial for Beginners](https://www.youtube.com/watch?v=-cMqr9HpZ-Y). All credits go to [CleverPrograamer YT Channel](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ)
 
-In the project directory, you can run:
+## Live Demonstartion of the Project
 
-### `npm start`
+  LIVE Demonstration: https://netlfix-clone-1906.firebaseapp.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone repo on your local system
 
-### `npm test`
+```bash
+git clone https://github.com/CrypticMuze/netflix-clone.git
+```
+2. Open a terminal on your localhost and install the dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
+3. Create a TMDB account (if you do not already possess one) and generate your personal API key
 
-### `npm run build`
+```
+https://developers.themoviedb.org/3
+```
+4. Add your personal API key
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Goto netflix-clone\netflix-clone\src\requests.js
+```
+```bash
+#In the requests.js file (line 1) make the following changes to the file -->
+const API_KEY = ""; # Add your personal API key here
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+5. Open a terminal on your localhost and build the React app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm build
+```
 
-### `npm run eject`
+6. Deploy the production build of the app in the same terminal.
+```bash
+npm run build
+```
+You're good to go! HealthHub should open on the live server.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Want to Contribute?
+To contribute to this project:
+1. Fork this repo
+2. Make desired changes after cloning it on your local system.
+3. Generate a pull request.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Note: Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Connect with the Me
+1. Aman Anand - [LinkedIN](https://www.linkedin.com/in/amanxanand/) || [GitHub](https://github.com/aman-anand1906) || [Instagram](https://www.instagram.com/aman_anand_619/")
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
