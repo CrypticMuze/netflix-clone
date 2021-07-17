@@ -10,7 +10,7 @@
 
 ## Live Demonstartion of the Project
 
-  LIVE Demonstration: https://netlfix-clone-1906.firebaseapp.com/
+  LIVE Demonstration: [Click Here](https://netlfix-clone-1906.web.app/)
 
 ## Installation
 
