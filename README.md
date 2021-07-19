@@ -1,12 +1,12 @@
 <p align="center">
-<img src="https://github.com/CrypticMuze/netflix-clone/blob/master/netflix-clone/public/netflixlogo.png" alt="HealthHubLogo" height=200px width=400px/>
+<img src="https://github.com/CrypticMuze/netflix-clone/blob/master/netflix-clone/public/netflixlogo.png" alt="NetflixLogo" height=200px width=400px/>
 </p>
 
 # Netflix Clone
 
 ## About the Project
 
-  This repo contains the output files for the Netflix Clone with respect to the [React JS Tutorial for Beginners](https://www.youtube.com/watch?v=-cMqr9HpZ-Y). All credits go to [CleverPrograamer YT Channel](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ)
+  This repo contains the output files for the Netflix Clone with respect to the [React JS Tutorial for Beginners](https://www.youtube.com/watch?v=-cMqr9HpZ-Y). All credits go to [CleverProgrammer YT Channel](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ)
 
 ## Live Demonstartion of the Project
 
