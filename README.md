@@ -49,7 +49,7 @@ npm build
 ```bash
 npm run build
 ```
-You're good to go! HealthHub should open on the live server.
+You're good to go! Your Netflix Clone should open on the live server.
 
 ## Want to Contribute?
 To contribute to this project:
